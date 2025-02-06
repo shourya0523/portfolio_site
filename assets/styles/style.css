@@ -1,0 +1,87 @@
+/* Navigation Styles */
+nav {
+    background: rgb(0, 0, 0);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #f89e8a;
+    border-radius: 5px;
+}
+
+
+.body {
+    background-image: -webkit-radial-gradient(circle, #162985, #ffad8a);
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-size: cover;
+    background-position: center 10%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+
+.hero-section p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #f28f79;
+    position: relative;
+    top: 2%;
+    font-weight: bold;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cta-button:hover {
+    background: #e9bdb4;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}

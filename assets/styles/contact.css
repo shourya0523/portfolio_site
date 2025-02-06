@@ -1,0 +1,91 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(26, 26, 26, 0.9);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #f89e8a;
+    border-radius: 5px;
+}
+
+/* Contact Page Layout */
+.contact-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+/* Profile Section */
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Contact Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    display: block;
+    padding: 12px;
+    background: #7dc1f9;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #f89e8a;
+}
