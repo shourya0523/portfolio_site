@@ -28,17 +28,15 @@ This project helped me understand:
 - Version control with Git
 
 ## Project Structure
-🏠 Website Structure
-   
-   📄 index.html     → Your gateway to my digital world
-   📄 about.html     → Get to know me better!
-   📄 projects.html  → Explore my creative works
-   📄 contact.html   → Let's connect!
-   
-   📁 assets/
-      ├── 🎨 styles/    → Making things beautiful
-      ├── 📜 scripts/   → Where the magic happens
-      └── 🖼️ images/    → Visual storytelling
+## Website Structure
+
+### Main Pages
+- `index.html` - Your gateway to my portfolio
+- `about.html` - Get to know me better!
+- `projects.html` - Explore my work
+- `contact.html` - Let's connect!
+
+### Assets Directory
 
 ## Future Improvements
 - Add more interactive features
