@@ -3,6 +3,9 @@
 ## Overview
 This portfolio website represents my journey into web development, built entirely from scratch using vanilla HTML, CSS, and JavaScript. As a data science student venturing into web development, I chose to build this without any frameworks to understand the core fundamentals of web technologies.
 
+## Deployed at
+https://shourya0523.github.io/portfolio_site/
+
 ## Tech Stack
 - HTML5
 - CSS3
@@ -25,15 +28,17 @@ This project helped me understand:
 - Version control with Git
 
 ## Project Structure
-├── index.html          # Landing page
-├── about.html         # About me section
-├── projects.html      # Project showcase
-├── contact.html      # Contact information
-└── assets/
-├── styles/       # CSS stylesheets
-├── scripts/      # JavaScript files
-└── images/       # Image resources
-
+🏠 Website Structure
+   
+   📄 index.html     → Your gateway to my digital world
+   📄 about.html     → Get to know me better!
+   📄 projects.html  → Explore my creative works
+   📄 contact.html   → Let's connect!
+   
+   📁 assets/
+      ├── 🎨 styles/    → Making things beautiful
+      ├── 📜 scripts/   → Where the magic happens
+      └── 🖼️ images/    → Visual storytelling
 
 ## Future Improvements
 - Add more interactive features
