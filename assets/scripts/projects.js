@@ -18,7 +18,7 @@ const projects = [
         status: "Completed",
         description: "A data science project that explores the relationship between happiness and various socio-economic factors. This was my introduction to Python and Machine Learning.",
         page: "inprogress.html",
-        link: "https://github.com/shouryayadav/Exploring-Happiness"
+        link: "https://github.com/SeanBNU/world-happiness-model"
     },
     {
         title: "Portfolio Website",
@@ -27,8 +27,8 @@ const projects = [
         date: "February 2025",
         status: "In Progress",
         description: "This website! Built using HTML, CSS, and JavaScript. Includes a companion document exploring how I leveraged AI tools to learn web development while building this site.",
-        page: "inprogress.html",
-        link: "https://github.com/shouryayadav/Portfolio"
+        page: "index.html",
+        link: "https://github.com/shourya0523/portfolio_site"
     },
     {
         title: "HuskyFair",
@@ -105,9 +105,7 @@ document.addEventListener("DOMContentLoaded", displayProjects);
 
 // Upcoming Projects Array
 const upcomingProjects = [
-    "InnovAIte hackathon (Expected: February 2025)",
     "Northeastern Job Search Database Platform (Expected: March 2025)",
-    "Interactive Data Visualization Dashboard (Expected: March 2025)",
     "Music Industry Trends Analysis (Expected: March 2025)"
 ];
 
