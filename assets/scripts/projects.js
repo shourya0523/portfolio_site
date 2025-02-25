@@ -8,14 +8,24 @@ const projects = [
         status: "Completed",
         description: " A full-stack web application, Spendr is a dating platform that utilises AI/ML to match users based on their profiles and spending history. We won the best use of AI/ML award at Northeastern University Finhacks!",
         page: "inprogress.html",
-        link: "https://github.com/shouryayadav/Spendr"
+        link: "https://github.com/harrydng/spendr"
+    },
+    {
+        title: "Indian Food Dashboard",
+        image: "assets/images/food.png",
+        category: "Backend, Frontend",
+        date: "February 2025",
+        status: "Completed",
+        description: "An interactive dashboard that lets you explore the rich and diverse world of Indian cuisine! Built with Panel and Python, this tool helps you discover interesting patterns and relationships in Indian food data.",
+        page: "https://indian-food-dashboard.onrender.com/foodexplore",
+        link: "https://github.com/shourya0523/Indian-Food-Dashboard"
     },
     {
         title: "Exploring Happiness",
         image: "assets/images/happiness.jpg",
         category: "Data Science, AI/ML",
         date: "November 2024",
-        status: "Completed",
+        status: "Updating",
         description: "A data science project that explores the relationship between happiness and various socio-economic factors. This was my introduction to Python and Machine Learning.",
         page: "inprogress.html",
         link: "https://github.com/SeanBNU/world-happiness-model"
@@ -81,7 +91,7 @@ function displayProjects() {
 
         // Add external link (GitHub/Devpost)
         const externalLink = document.createElement("a");
-        externalLink.href = project.externalLink ? project.externalLink : "error.html";
+        externalLink.href = project.link;
         externalLink.textContent = "View on GitHub";
         externalLink.target = "_blank";  // Opens in a new tab
         externalLink.classList.add("btn"); 
