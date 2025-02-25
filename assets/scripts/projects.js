@@ -12,7 +12,7 @@ const projects = [
     },
     {
         title: "Indian Food Dashboard",
-        image: "./assets/images/food.png",    // Using relative path
+        image: "./assets/images/food.jpg",    // Using relative path
         category: "Backend, Frontend",
         date: "February 2025",
         status: "Completed",
