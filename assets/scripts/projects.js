@@ -2,7 +2,7 @@
 const projects = [
     {
         title: "Spendr",
-        image: "./assets/images/spendr.jpg",  // Using relative path
+        image: "assets/images/spendr.jpg",  // Using relative path
         category: "Frontend, AI/ML",
         date: "January 2025",
         status: "Completed",
@@ -12,7 +12,7 @@ const projects = [
     },
     {
         title: "Indian Food Dashboard",
-        image: "./assets/images/food.jpg",    // Using relative path
+        image: "assets/images/food.jpg",    // Using relative path
         category: "Backend, Frontend",
         date: "February 2025",
         status: "Completed",
